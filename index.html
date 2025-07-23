@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+a<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,13 +8,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
+      referrerpolicy="no-referrer"
+    />
     <title>My Portofolio</title>
   </head>
   <body>
@@ -27,7 +29,8 @@
         <a
           href="http://github.com/diknzt"
           target="_blank"
-          rel="noopener noreferrer">
+          rel="noopener noreferrer"
+        >
           <i class="fa-brands fa-github"></i>
           <span>Github</span>
         </a>
@@ -35,7 +38,8 @@
         <a
           href="https://www.linkedin.com/in/andika-muhamad-a-c-7460b2375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           target="_blank"
-          rel="noopener noreferrer">
+          rel="noopener noreferrer"
+        >
           <i class="fa-brands fa-linkedin"></i>
           <span>Linkedin</span>
         </a>
@@ -52,11 +56,13 @@
         <div class="text">
           <h2>Hi, I'm Andika</h2>
           <p>
-            Saya adalah seorang pelajar sekaligus developer muda yang antusias
-            dalam dunia teknologi, khususnya di bidang pengembangan aplikasi web
-            dan mobile. Saya senang mempelajari hal-hal baru, mengerjakan
-            proyek-proyek kreatif, dan membangun solusi digital yang fungsional
-            dan menarik.
+            Saya adalah lulusan SMK BBC jurusan Rekayasa Perangkat Lunak (RPL)
+            yang memiliki ketertarikan dan dasar pengetahuan dalam bidang web
+            development. Terbiasa bekerja dengan HTML, CSS, dan JavaScript serta
+            memahami konsep dasar pengembangan web baik frontend maupun backend.
+            Saya memiliki semangat belajar yang tinggi, mampu bekerja secara
+            mandiri maupun dalam tim, dan siap berkembang bersama lingkungan
+            kerja yang dinamis.
           </p>
 
           <div class="links">
@@ -93,6 +99,48 @@
           </ol>
         </div>
       </section>
+
+      <!-- Pendidikan -->
+      <section id="Pendidikan" class="Pendidikan">
+        <h2>Pendidikan</h2>
+
+        <div class="group">
+          <div class="person-detail">
+            <img src="bbc.webp" alt="bbc" />
+            <p>SMK BUDI BAKTI CIWIDEY</p>
+            2023-2026
+          </div>
+          <div class="text">
+            "Saya merupakan siswa dari SMK Budi Bakti Ciwidey, jurusan Rekayasa
+            Perangkat Lunak (RPL). Di sekolah ini, saya mendapatkan dasar yang
+            kuat dalam bidang pemrograman, pengembangan web dan aplikasi, serta
+            penerapan langsung dalam berbagai proyek teknologi. Lingkungan
+            belajar yang mendukung dan praktik industri yang diterapkan membantu
+            saya untuk siap menghadapi dunia kerja maupun jenjang pendidikan
+            selanjutnya."
+          </div>
+        </div>
+      </section>
+
+      <!-- Pengalaman -->
+      <section id="Pengalaman" class="Pengalaman">
+        <h2>Pengalaman</h2>
+
+        <div class="group">
+          <div class="person-detail">
+            <img src="ino.webp" alt="bbc" />
+            <p>PT.Inovindo Digital Media</p>
+            2025
+          </div>
+          <div class="text">
+          <ul>
+            <li>Membuat CV Kreatif</li>
+            <li>Membuat CV ATS</li>
+          </ul>
+          </div>
+          </div>
+        </div>
+      </section>
       <!-- Skill -->
       <section id="skill" class="skills">
         <h2>Skills</h2>
@@ -119,29 +167,34 @@
           </div>
         </div>
       </section>
-      <!-- Pendidikan -->
-      <section id="Pendidikan" class="Pendidikan">
-        <h2>Pendidikan</h2>
+      <!-- Kontak -->
+       <section id="contact" class="contact-section">
+        <h2>contact</h2>
 
         <div class="group">
-          <div class="person-detail">
-            <img src="bbc.webp" alt="bbc" />
-            <p>SMK BUDI BAKTI CIWIDEY</p>
-            2023-2026
-          </div>
           <div class="text">
-            "Saya merupakan siswa dari SMK Budi Bakti Ciwidey, jurusan Rekayasa
-            Perangkat Lunak (RPL). Di sekolah ini, saya mendapatkan dasar yang
-            kuat dalam bidang pemrograman, pengembangan web dan aplikasi, serta
-            penerapan langsung dalam berbagai proyek teknologi. Lingkungan
-            belajar yang mendukung dan praktik industri yang diterapkan membantu
-            saya untuk siap menghadapi dunia kerja maupun jenjang pendidikan
-            selanjutnya."
+            <p>
+              Tertarik bekerja sama, berdiskusi proyek, atau ingin mengenal saya lebih lanjut?
+Jangan ragu untuk menghubungi saya melalui kontak di bawah ini.
+Saya terbuka untuk peluang kerja, freelance, kolaborasi, maupun konsultasi.
+            </p>
+           
           </div>
+
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+
+            <label for="name">Email</label>
+            <input type="email" id="email">
+
+            <label for="message">Sent Message</label>
+            <textarea id="message" cols="30" rows="10"></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
         </div>
-      </section>
-      <!-- Pengalaman -->
-      <section id="Pengalaman"></section>
+       </section>
     </main>
   </body>
 </html>
